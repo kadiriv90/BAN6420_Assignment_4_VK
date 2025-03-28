@@ -14,7 +14,7 @@
 # - Report generation/saving outputs.
 
 # Key Features:
-# Data Preparation: Load and validate Netflix data
+# Data Preparation: Load and rename Netflix data
 # Data Cleaning: Handle missing values and inconsistencies
 # Exploratory Analysis: Generate insights about content types, ratings, genres, and more
 # Visualizations: Interactive menu-driven visualizations with multiple plot types
