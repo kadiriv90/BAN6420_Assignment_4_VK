@@ -1,0 +1,88 @@
+Netflix Content Analysis Report (2025-03-28 16:38:11)
+==================================================
+
+1. DATASET OVERVIEW
+--------------------------------------------------
+Total titles analyzed: 6,234
+Data columns available: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'listed_in', 'description']
+
+This dataset contains information about Netflix movies and TV shows, including:
+- Title, director, and cast members
+- Country of origin and content categories
+- Release year and when added to Netflix
+- Duration and age rating
+
+2. CONTENT TYPE BREAKDOWN
+--------------------------------------------------
+Movies: 4,265 (68.4%)
+TV Shows: 1,969 (31.6%)
+
+For every TV show, there are 2.2 movies
+
+This shows Netflix's catalog leans more heavily toward movies than TV shows.
+
+3. RELEASE YEAR TRENDS
+--------------------------------------------------
+Content released in 2010s/20s: 5,230 (83.9%)
+Content released before 2010: 1,004 (16.1%)
+
+Newest content: 2020
+Oldest content: 1925
+
+This indicates Netflix offers a mix of recent and classic content.
+
+4. AGE RATINGS ANALYSIS
+--------------------------------------------------
+Most common content ratings:
+TV-MA    2027
+TV-14    1698
+TV-PG     701
+R         508
+PG-13     286
+NR        218
+PG        184
+TV-Y7     169
+TV-G      149
+TV-Y      143
+Name: rating, dtype: int64
+
+Content Categories:
+- Adult-oriented: 2,762 titles (44.3%)
+- Family-friendly: 1,383 titles (22.2%)
+- General audience: 1,984 titles (31.8%)
+
+This breakdown helps understand the target audience for Netflix's content.
+
+5. GEOGRAPHIC DISTRIBUTION
+--------------------------------------------------
+Top 10 countries producing content:
+United States     2609
+India              838
+United Kingdom     601
+Unknown            476
+Canada             318
+France             271
+Japan              231
+Spain              178
+South Korea        162
+Germany            151
+Name: country, dtype: int64
+
+This shows where Netflix sources most of its content from.
+
+6. GENRE DISTRIBUTION
+--------------------------------------------------
+Top 10 most common genres/categories:
+International Movies      1927
+Dramas                    1623
+Comedies                  1113
+International TV Shows    1001
+Documentaries              668
+TV Dramas                  599
+Action & Adventure         597
+Independent Movies         552
+TV Comedies                436
+Thrillers                  392
+Name: listed_in, dtype: int64
+
+This reveals the most popular types of content on Netflix.
